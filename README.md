@@ -50,16 +50,16 @@ The system follows modern software engineering practices, including layered arch
 
 ## Project Structure
 
----
-
+```text
 PROJECT/
 ├── product/
-│ ├── frontend/ # React frontend application
-│ └── backend/ # Spring Boot backend application
-├── documents/ # Project documents (reports, diagrams, planning)
+│   ├── frontend/
+│   └── backend/
+├── documents/
 ├── diary.md
 ├── .gitignore
 └── gitlab-ci.yml
+```
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ To run the project locally, the following must be installed:
 
 ### 1. Clone the Repository
 
-git clone <https://gitlab.cim.rhul.ac.uk/zlac331/PROJECT.git>
+git clone <https://github.com/kayzCodes/financial-asset-management-platform.git>
 
 ### 2. Backend Configuration
 
@@ -123,7 +123,7 @@ Frontend runs at:
 - Portfolio overview dashboard
 - Stock and cryptocurrency tracking
 - Financial goal management
-- Personalised news interface (placeholder data)
+- Personalised news generation based on user-held assets
 
 ---
 
